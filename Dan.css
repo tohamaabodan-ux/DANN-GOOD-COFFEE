@@ -1,0 +1,407 @@
+body { background-color: #fff1de;
+margin: 0%;}
+
+header { display: flex;
+flex-direction: row;
+width: 100%;
+height: 75px;
+justify-content: space-between;
+align-items: center;
+justify-items: stretch;
+width: 100%;
+max-width: 80rem;
+margin-left: auto;
+margin-right: auto;
+position: fixed;
+top: 0;
+left: 0;
+background: transparent;
+z-index: 10;}
+
+
+header ul {list-style: none;
+display: flex;
+gap: 25px; }
+
+header .headinformation ul li a{ font-family: Arial, sans-serif;
+color: rgb(255, 255, 255);
+background-color: none;
+text-transform: uppercase;
+text-decoration: none;
+margin-left: 60px;
+padding: .75rem 1.5rem;
+letter-spacing: .05rem;
+font-weight: bold;
+border: ;}
+
+header .headinformation ul li  a:hover{ 
+  border: solid rgb(227, 147, 0);
+border-radius: 10px;}
+
+header .headimg { position: relative;
+width: 75px;
+right:100px;
+top: 15px;}
+header .headimg:hover { filter: brightness(95%);}
+
+header .headorder a{ text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: black;
+background-color: rgb(227, 147, 0);
+padding: .75rem 1.5rem;
+letter-spacing: .05rem;
+font-weight: bold;
+border-radius: 10px;}
+
+
+header .headorder a:hover { background-color: rgb(33, 157, 157);}
+
+.header { height: 100vh;
+background:linear-gradient(
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url(Dann-Header.webp) center/cover no-repeat ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+text-align: center;
+font-family: Arial, sans-serif;
+padding-top: 50px;}
+
+.header h1 {
+  font-size: 75px;
+  max-width: 700px;}
+
+.header h5 {font-size: 15px;
+  margin: 20px 0;}
+
+  .header .button { display: flex;
+  flex-direction: row;
+gap: 15px;}
+
+.header .button #button-one a{font-family: Arial, sans-serif; 
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+color: black;
+background-color: rgb(227, 147, 0);
+padding: .75rem 1.5rem;
+letter-spacing: .05rem;
+border-radius: 10px;}
+
+.header .button #button-two a {font-family: Arial, sans-serif; 
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: .75rem 1.5rem;
+  letter-spacing: .05rem;
+  border-radius: 10px; 
+border: solid white;}
+
+  .header .button #button-two a:hover { color: black;
+  background-color: white;}
+
+  .story {width: 100%;
+height: 800px;
+    background-color: rgb(33, 157, 157);
+  display: flex;
+flex-direction: row; }
+
+.story .thestory { font-family: Arial, sans-serif;
+position: relative;
+left: 200px;
+top: 120px;
+max-width: 500px;}
+
+.story .thestory h1 { text-transform: capitalize;
+font-weight: bold;
+font-size: 75px;}
+
+.story .thestory p { line-height: 25px;}
+
+.story .thestory button { text-transform: uppercase;
+font-weight: bold;
+font-size: 18px;
+padding: 15px;
+background: none;
+border-radius: 10px;}
+
+.story .thestory button:hover { color: white;
+background-color: black;}
+
+.story img { position: relative;
+width: 550px;
+height: 600px;
+left: 300px;
+bottom: 100px;}
+
+.shopbean {width: 100%;
+  height: 800px;
+    display: flex;
+  flex-direction: row; }
+
+.shopbean img { width: 500px;
+  height: 550px;
+position: relative;
+top: 100px;
+left: 200px;
+border-radius: 20px;}
+
+.shopbean .bean {  font-family: Arial, sans-serif;
+  position: relative;
+  left: 250px;
+  top: 120px;
+  max-width: 500px;}
+
+  .shopbean .bean h1 { text-transform: capitalize;
+    font-weight: bold;
+    font-size: 75px;}
+
+.shopbean .bean p { line-height: 25px;}
+
+ .shopbean .bean button { text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  background: none;
+  border-radius: 10px;
+border-color: rgb(227, 147, 0);}
+
+.shopbean .bean button:hover { background-color: rgb(33, 157, 157);;}
+
+.parent { background-color: rgb(227, 147, 0);
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 500px;}
+
+.parent .son { width: 300px;
+height: 400px;
+position: relative;
+left: 300px;
+text-align: center;
+top: 100px;}
+
+.parent .son  img { width: 70px;
+height: 70px;}
+
+
+.parent .son h1 {  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Arial, sans-serif;}
+
+  .parent .son p {  font-family: Arial, sans-serif; font-size: 13px; }
+
+  .parent .son button { text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;}
+  
+  .parent .son button:hover { background-color: rgb(33, 157, 157);}
+
+  .one {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .team-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    border: black;
+  }
+  
+  .team-row .dann img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .dann h2, .dann h3 {
+    margin: 10px 0;
+  }
+  .one .dann {
+    background-color: #000;       
+    border: 2px solid #000;       
+    border-radius: 10px;      
+    text-align: center;
+    color: white;               
+    width: 22%; }
+  
+  
+  .one .dann:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  }
+  
+  
+  .one .dann img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .one .dann h2, 
+  .one .dann h3 {
+    margin: 10px 0 0;
+    color: #fff;}
+
+    .one .none h2 { font-weight: bold;}
+
+    .one .none h3 { font-size: 20px;}
+
+    .one button { text-transform: uppercase;
+      font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  background: none;
+  border-radius: 10px;
+border-color: rgb(227, 147, 0);}
+
+.one button:hover { background-color:rgb(33, 157, 157); }
+
+.two { background-color:rgb(33, 157, 157);
+width: 100%;
+height: 500px;
+text-align: center;
+align-items: center;
+font-family: Arial, sans-serif;
+color: white;}
+
+.two h1 { font-size: 75px;}
+
+.two .stars { display: flex;
+flex-direction: row;
+max-width: 700px;
+position: relative;
+left: 400px;
+gap: 20px;}
+
+.two .stars .star { gap: 20px;
+  border: solid rgb(105, 191, 191) ;
+border-radius: 10px;}
+
+.two .stars h2 { font-size: 20px;}
+
+.three { 
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color:black}
+  
+  .three h1 { font-size: 75px;}
+
+  .three .moment { display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    position: relative;
+    left: 250px;
+    gap: 20px;}
+
+    .three .moment img { width: 500px;
+    border-radius: 10px;}   
+
+
+.faq {
+    width: 70%;
+    margin: 60px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+  }
+  
+  details {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    transition: background 0.3s;
+  }
+  
+  summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    list-style: none;
+  }
+  
+  details[open] {
+    background-color: #fff;
+  }
+  
+  details p {
+    margin-top: 10px;
+    color: #555;}
+
+.three  button { text-transform: uppercase;
+  font-weight: bold;
+font-size: 18px;
+padding: 15px;
+background: none;
+border-radius: 10px;
+border-color: rgb(227, 147, 0);}
+
+.three  button:hover {background-color:rgb(33, 157, 157); }
+
+footer { width: 100%;
+height: 500px;
+background-color: #000;
+text-align: center;
+align-items: center;
+position: relative;
+top: 400px;}
+
+footer .footerimg{ width: 85px;
+height: 85px;
+position: relative;
+right: 500px;
+top: 100px;}
+
+footer .footer-img { position: relative;
+top: 200px;}
+
+footer .footer-img img:hover { filter: brightness(95%);}
+
+footer .footer a {text-decoration: none;
+color: white;
+font-size: 15px;
+font-family: Arial, sans-serif;
+padding-left: 15px;
+text-transform: uppercase;}
+
+footer .footer a:hover { color: rgb(227, 147, 0) ;}
+
+footer .underfooter { color: white;
+  font-family: Arial, sans-serif;
+font-size: 10px;
+position: relative;
+top: 75px;}
+
+footer .underfooter a{ color: white;
+padding-left: 10px;}
+
